@@ -39,3 +39,19 @@ p {
     font-size: 2rem;
   }
 }
+
+/* Links*/
+
+a {
+  text-decoration: none;
+  color: var(--color-accent);
+  font-weight: bold;
+}
+.link-arrow::after {
+  content: "-->";
+  margin-left: 5px;
+  transition: margin 0.2s;
+}
+.link-arrow:hover::after {
+  margin-left: 10px;
+}
