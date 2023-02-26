@@ -55,3 +55,14 @@ a {
 .link-arrow:hover::after {
   margin-left: 10px;
 }
+
+/* Badges */
+.badge {
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
+  background-color: #f10e33;
+}
