@@ -128,10 +128,17 @@ a {
   text-align: center;
   white-space: nowrap;
 }
-.btn::after {
+.btn .icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  margin-left: 8px;
+  vertical-align: sub;
+}
+/* .btn::after {
   content: "-->";
   margin-left: 0.5rem;
-}
+} */
 .btn:hover:after {
   margin-left: 1rem;
 }
@@ -147,7 +154,7 @@ a {
   color: #fff;
 }
 .btn--section:hover {
-  background-color: #ed4a04;
+  background-color: #ed6635;
 }
 @media screen and (min-width: 1024px) {
   .btn {
