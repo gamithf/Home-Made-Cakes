@@ -15,7 +15,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
   color: var(--color-body);
@@ -85,6 +85,8 @@ a {
 .list--tick {
   list-style-image: url(../images/tick.svg);
   padding-left: 3rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
 }
 .list--tick .list__item {
   padding-left: 1rem;
@@ -121,19 +123,27 @@ a {
   border-radius: 40px;
   font-size: 1.8rem;
   font-weight: 500;
-  padding: 2rem 3rem;
+  padding: 1.5rem 2rem;
   cursor: pointer;
   margin: 1rem 0;
   text-transform: uppercase;
   text-align: center;
   white-space: nowrap;
+  margin-bottom: 0;
 }
 .btn .icon {
   width: 20px;
   height: 20px;
   fill: #fff;
   margin-left: 8px;
-  vertical-align: sub;
+  vertical-align: text-bottom;
+}
+.btn .icon .icon--card {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  margin-left: 8px;
+  vertical-align: bottom;
 }
 /* .btn::after {
   content: "-->";
@@ -156,8 +166,92 @@ a {
 .btn--section:hover {
   background-color: #ed6635;
 }
+.btn--card {
+  background-color: #e90ccc;
+  color: #fff;
+}
+.btn--card:hover {
+  background-color: #f665e2;
+  color: #fff;
+}
+.download__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (min-width: 1024px) {
   .btn {
     font-size: 1.5rem;
   }
+}
+
+/* Cards */
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  font-weight: 400;
+  overflow: hidden;
+}
+.card__header,
+.card__body {
+  padding: 2rem 3rem;
+}
+.card--primary .card__header {
+  color: var(--color-headings);
+  background: lightsteelblue;
+}
+.card--special .card__header {
+  color: var(--color-headings);
+  background: #8be4f4;
+}
+.plan__name {
+  margin: 0;
+}
+.card--image .card__header {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+}
+.card__image {
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .card__image {
+    width: 250px;
+  }
+}
+/* Tables */
+table {
+  color: black;
+  border-collapse: collapse;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  letter-spacing: 0.1rem;
+}
+thead,
+tr {
+  border-bottom: 1px dashed black;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.5rem 1rem;
+}
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+tr th {
+  background-color: white;
+  color: var(--color-headings);
+  font-weight: 800;
+}
+.table__description {
+  font-style: italic;
+  color: black;
+  margin-bottom: 0;
+}
+.table__description::before {
+  content: "*";
+  color: red;
 }
