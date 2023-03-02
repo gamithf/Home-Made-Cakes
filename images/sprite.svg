@@ -1,31 +1,15 @@
 <svg width="0" height="0" class="hidden">
-  <symbol xmlns="http://www.w3.org/2000/svg" id="heart (1)" viewBox="0 0 24 24">
-    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="whatsapp (1)" x="0px" y="0px" xml:space="preserve" viewBox="0 0 24 24">
-    <g id="WA_Logo">
-      <g>
-        <path d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"></path>
-      </g>
-    </g>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="download (1)" viewBox="0 0 24 24">
+    <path d="M9.878,18.122a3,3,0,0,0,4.244,0l3.211-3.211A1,1,0,0,0,15.919,13.5l-2.926,2.927L13,1a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1l-.009,15.408L8.081,13.5a1,1,0,0,0-1.414,1.415Z"></path>
+    <path d="M23,16h0a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V17a1,1,0,0,0-1-1H1a1,1,0,0,0-1,1v4a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V17A1,1,0,0,0,23,16Z"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="facebook" x="0px" y="0px" xml:space="preserve" viewBox="0 0 24 24">
     <g>
       <path d="M24,12.073c0,5.989-4.394,10.954-10.13,11.855v-8.363h2.789l0.531-3.46H13.87V9.86c0-0.947,0.464-1.869,1.95-1.869h1.509   V5.045c0,0-1.37-0.234-2.679-0.234c-2.734,0-4.52,1.657-4.52,4.656v2.637H7.091v3.46h3.039v8.363C4.395,23.025,0,18.061,0,12.073   c0-6.627,5.373-12,12-12S24,5.445,24,12.073z"></path>
     </g>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" id="angle-small-right (1)" viewBox="0 0 24 24">
-    <path d="M15.4,9.88,10.81,5.29a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L14,11.29a1,1,0,0,1,0,1.42L9.4,17.29a1,1,0,0,0,1.41,1.42l4.59-4.59A3,3,0,0,0,15.4,9.88Z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-right" viewBox="0 0 24 24">
-    <path d="M23.12,9.91,19.25,6a1,1,0,0,0-1.42,0h0a1,1,0,0,0,0,1.41L21.39,11H1a1,1,0,0,0-1,1H0a1,1,0,0,0,1,1H21.45l-3.62,3.61a1,1,0,0,0,0,1.42h0a1,1,0,0,0,1.42,0l3.87-3.88A3,3,0,0,0,23.12,9.91Z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" id="download (1)" viewBox="0 0 24 24">
-    <path d="M9.878,18.122a3,3,0,0,0,4.244,0l3.211-3.211A1,1,0,0,0,15.919,13.5l-2.926,2.927L13,1a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1l-.009,15.408L8.081,13.5a1,1,0,0,0-1.414,1.415Z"></path>
-    <path d="M23,16h0a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V17a1,1,0,0,0-1-1H1a1,1,0,0,0-1,1v4a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V17A1,1,0,0,0,23,16Z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" id="check" viewBox="0 0 24 24">
-    <path d="M22.319,4.431,8.5,18.249a1,1,0,0,1-1.417,0L1.739,12.9a1,1,0,0,0-1.417,0h0a1,1,0,0,0,0,1.417l5.346,5.345a3.008,3.008,0,0,0,4.25,0L23.736,5.847a1,1,0,0,0,0-1.416h0A1,1,0,0,0,22.319,4.431Z"></path>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="heart (1)" viewBox="0 0 24 24">
+    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" id="marker (1)" viewBox="0 0 24 24">
     <path d="M12,6a4,4,0,1,0,4,4A4,4,0,0,0,12,6Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,12Z"></path>
@@ -35,5 +19,186 @@
     <rect y="11" width="24" height="2" rx="1"></rect>
     <rect y="4" width="24" height="2" rx="1"></rect>
     <rect y="18" width="24" height="2" rx="1"></rect>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1500" id="pattern-randomized">
+    <rect fill="#ffffff" width="2000" height="1500"></rect>
+    <defs>
+      <rect stroke="#ffffff" stroke-width=".5" width="1" height="1" id="s"></rect>
+      <pattern id="a" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="scale(50) translate(-980 -735)">
+        <use fill="#fcfcfc" href="#s" y="2"></use>
+        <use fill="#fcfcfc" href="#s" x="1" y="2"></use>
+        <use fill="#fafafa" href="#s" x="2" y="2"></use>
+        <use fill="#fafafa" href="#s"></use>
+        <use fill="#f7f7f7" href="#s" x="2"></use>
+        <use fill="#f7f7f7" href="#s" x="1" y="1"></use>
+      </pattern>
+      <pattern id="b" width="7" height="11" patternUnits="userSpaceOnUse" patternTransform="scale(50) translate(-980 -735)">
+        <g fill="#f5f5f5">
+          <use href="#s"></use>
+          <use href="#s" y="5"></use>
+          <use href="#s" x="1" y="10"></use>
+          <use href="#s" x="2" y="1"></use>
+          <use href="#s" x="2" y="4"></use>
+          <use href="#s" x="3" y="8"></use>
+          <use href="#s" x="4" y="3"></use>
+          <use href="#s" x="4" y="7"></use>
+          <use href="#s" x="5" y="2"></use>
+          <use href="#s" x="5" y="6"></use>
+          <use href="#s" x="6" y="9"></use>
+        </g>
+      </pattern>
+      <pattern id="h" width="5" height="13" patternUnits="userSpaceOnUse" patternTransform="scale(50) translate(-980 -735)">
+        <g fill="#f5f5f5">
+          <use href="#s" y="5"></use>
+          <use href="#s" y="8"></use>
+          <use href="#s" x="1" y="1"></use>
+          <use href="#s" x="1" y="9"></use>
+          <use href="#s" x="1" y="12"></use>
+          <use href="#s" x="2"></use>
+          <use href="#s" x="2" y="4"></use>
+          <use href="#s" x="3" y="2"></use>
+          <use href="#s" x="3" y="6"></use>
+          <use href="#s" x="3" y="11"></use>
+          <use href="#s" x="4" y="3"></use>
+          <use href="#s" x="4" y="7"></use>
+          <use href="#s" x="4" y="10"></use>
+        </g>
+      </pattern>
+      <pattern id="c" width="17" height="13" patternUnits="userSpaceOnUse" patternTransform="scale(50) translate(-980 -735)">
+        <g fill="#f2f2f2">
+          <use href="#s" y="11"></use>
+          <use href="#s" x="2" y="9"></use>
+          <use href="#s" x="5" y="12"></use>
+          <use href="#s" x="9" y="4"></use>
+          <use href="#s" x="12" y="1"></use>
+          <use href="#s" x="16" y="6"></use>
+        </g>
+      </pattern>
+      <pattern id="d" width="19" height="17" patternUnits="userSpaceOnUse" patternTransform="scale(50) translate(-980 -735)">
+        <g fill="#ffffff">
+          <use href="#s" y="9"></use>
+          <use href="#s" x="16" y="5"></use>
+          <use href="#s" x="14" y="2"></use>
+          <use href="#s" x="11" y="11"></use>
+          <use href="#s" x="6" y="14"></use>
+        </g>
+        <g fill="#efefef">
+          <use href="#s" x="3" y="13"></use>
+          <use href="#s" x="9" y="7"></use>
+          <use href="#s" x="13" y="10"></use>
+          <use href="#s" x="15" y="4"></use>
+          <use href="#s" x="18" y="1"></use>
+        </g>
+      </pattern>
+      <pattern id="e" width="47" height="53" patternUnits="userSpaceOnUse" patternTransform="scale(50) translate(-980 -735)">
+        <g fill="#F60">
+          <use href="#s" x="2" y="5"></use>
+          <use href="#s" x="16" y="38"></use>
+          <use href="#s" x="46" y="42"></use>
+          <use href="#s" x="29" y="20"></use>
+        </g>
+      </pattern>
+      <pattern id="f" width="59" height="71" patternUnits="userSpaceOnUse" patternTransform="scale(50) translate(-980 -735)">
+        <g fill="#F60">
+          <use href="#s" x="33" y="13"></use>
+          <use href="#s" x="27" y="54"></use>
+          <use href="#s" x="55" y="55"></use>
+        </g>
+      </pattern>
+      <pattern id="g" width="139" height="97" patternUnits="userSpaceOnUse" patternTransform="scale(50) translate(-980 -735)">
+        <g fill="#F60">
+          <use href="#s" x="11" y="8"></use>
+          <use href="#s" x="51" y="13"></use>
+          <use href="#s" x="17" y="73"></use>
+          <use href="#s" x="99" y="57"></use>
+        </g>
+      </pattern>
+    </defs>
+    <rect fill="url(#a)" width="100%" height="100%"></rect>
+    <rect fill="url(#b)" width="100%" height="100%"></rect>
+    <rect fill="url(#h)" width="100%" height="100%"></rect>
+    <rect fill="url(#c)" width="100%" height="100%"></rect>
+    <rect fill="url(#d)" width="100%" height="100%"></rect>
+    <rect fill="url(#e)" width="100%" height="100%"></rect>
+    <rect fill="url(#f)" width="100%" height="100%"></rect>
+    <rect fill="url(#g)" width="100%" height="100%"></rect>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1500" id="sun-tornado">
+    <rect fill="#EEA6A0" width="2000" height="1500"></rect>
+    <defs>
+      <radialGradient id="a" gradientUnits="objectBoundingBox">
+        <stop offset="0" stop-color="#BEFFDF"></stop>
+        <stop offset="1" stop-color="#EEA6A0"></stop>
+      </radialGradient>
+      <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="0" y1="750" x2="1550" y2="750">
+        <stop offset="0" stop-color="#d6d3c0"></stop>
+        <stop offset="1" stop-color="#EEA6A0"></stop>
+      </linearGradient>
+      <path id="s" fill="url(#b)" d="M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z"></path>
+      <g id="g">
+        <use href="#s" transform="scale(0.12) rotate(60)"></use>
+        <use href="#s" transform="scale(0.2) rotate(10)"></use>
+        <use href="#s" transform="scale(0.25) rotate(40)"></use>
+        <use href="#s" transform="scale(0.3) rotate(-20)"></use>
+        <use href="#s" transform="scale(0.4) rotate(-30)"></use>
+        <use href="#s" transform="scale(0.5) rotate(20)"></use>
+        <use href="#s" transform="scale(0.6) rotate(60)"></use>
+        <use href="#s" transform="scale(0.7) rotate(10)"></use>
+        <use href="#s" transform="scale(0.835) rotate(-40)"></use>
+        <use href="#s" transform="scale(0.9) rotate(40)"></use>
+        <use href="#s" transform="scale(1.05) rotate(25)"></use>
+        <use href="#s" transform="scale(1.2) rotate(8)"></use>
+        <use href="#s" transform="scale(1.333) rotate(-60)"></use>
+        <use href="#s" transform="scale(1.45) rotate(-30)"></use>
+        <use href="#s" transform="scale(1.6) rotate(10)"></use>
+      </g>
+    </defs>
+    <g transform="rotate(0 0 0)">
+      <g transform="rotate(0 0 0)">
+        <circle fill="url(#a)" r="3000"></circle>
+        <g opacity="0.5">
+          <circle fill="url(#a)" r="2000"></circle>
+          <circle fill="url(#a)" r="1800"></circle>
+          <circle fill="url(#a)" r="1700"></circle>
+          <circle fill="url(#a)" r="1651"></circle>
+          <circle fill="url(#a)" r="1450"></circle>
+          <circle fill="url(#a)" r="1250"></circle>
+          <circle fill="url(#a)" r="1175"></circle>
+          <circle fill="url(#a)" r="900"></circle>
+          <circle fill="url(#a)" r="750"></circle>
+          <circle fill="url(#a)" r="500"></circle>
+          <circle fill="url(#a)" r="380"></circle>
+          <circle fill="url(#a)" r="250"></circle>
+        </g>
+        <g transform="rotate(0 0 0)">
+          <use href="#g" transform="rotate(10)"></use>
+          <use href="#g" transform="rotate(120)"></use>
+          <use href="#g" transform="rotate(240)"></use>
+        </g>
+        <circle fill-opacity="0.02" fill="url(#a)" r="3000"></circle>
+      </g>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="whatsapp (1)" x="0px" y="0px" xml:space="preserve" viewBox="0 0 24 24">
+    <g id="WA_Logo">
+      <g>
+        <path d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"></path>
+      </g>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="angle-small-right (1)" viewBox="0 0 24 24">
+    <path d="M15.4,9.88,10.81,5.29a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L14,11.29a1,1,0,0,1,0,1.42L9.4,17.29a1,1,0,0,0,1.41,1.42l4.59-4.59A3,3,0,0,0,15.4,9.88Z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-right" viewBox="0 0 24 24">
+    <path d="M23.12,9.91,19.25,6a1,1,0,0,0-1.42,0h0a1,1,0,0,0,0,1.41L21.39,11H1a1,1,0,0,0-1,1H0a1,1,0,0,0,1,1H21.45l-3.62,3.61a1,1,0,0,0,0,1.42h0a1,1,0,0,0,1.42,0l3.87-3.88A3,3,0,0,0,23.12,9.91Z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="cake-birthday" viewBox="0 0 24 24">
+    <path d="M23,22H22V14a5.006,5.006,0,0,0-5-5H13V6.039A2.5,2.5,0,0,0,14.5,3.75,7.293,7.293,0,0,0,12.738.327a1,1,0,0,0-1.476,0A7.293,7.293,0,0,0,9.5,3.75,2.5,2.5,0,0,0,11,6.039V9H7a5.006,5.006,0,0,0-5,5v8H1a1,1,0,0,0,0,2H23a1,1,0,0,0,0-2ZM7,11H17a3,3,0,0,1,3,3v1.98c-.936-.1-1.5-.7-1.5-.98a1,1,0,0,0-2,0c0,.343-.682,1-1.75,1C13.661,16,13,15.306,13,15a1,1,0,0,0-2,0c0,.343-.682,1-1.75,1-1.089,0-1.75-.694-1.75-1a1,1,0,0,0-2,0c0,.315-.579.888-1.5.981V14A3,3,0,0,1,7,11ZM4,17.979A4.156,4.156,0,0,0,6.5,17a4.309,4.309,0,0,0,5.5.015A4.309,4.309,0,0,0,17.5,17a4.156,4.156,0,0,0,2.5.978V22H4Z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="check" viewBox="0 0 24 24">
+    <path d="M22.319,4.431,8.5,18.249a1,1,0,0,1-1.417,0L1.739,12.9a1,1,0,0,0-1.417,0h0a1,1,0,0,0,0,1.417l5.346,5.345a3.008,3.008,0,0,0,4.25,0L23.736,5.847a1,1,0,0,0,0-1.416h0A1,1,0,0,0,22.319,4.431Z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="cupcake" viewBox="0 0 24 24">
+    <path d="M24,14c0-4.736-3.976-8.706-9.29-9.733a2.994,2.994,0,1,0-5.419,0C3.976,5.294,0,9.264,0,14a2.946,2.946,0,0,0,2.142,2.887l.826,4.638A3,3,0,0,0,5.921,24H18.08a3,3,0,0,0,2.953-2.475l.825-4.638A2.946,2.946,0,0,0,24,14ZM11,3a1,1,0,0,1,2,0A1,1,0,0,1,11,3Zm7.08,19H5.921a1,1,0,0,1-.984-.824l-.664-3.731A2.993,2.993,0,0,0,8,17.22a2.99,2.99,0,0,0,4,0,2.99,2.99,0,0,0,4,0,3,3,0,0,0,3.728.225l-.664,3.73A1,1,0,0,1,18.08,22ZM21,15H19a1,1,0,0,1-2,0H15a1,1,0,0,1-2,0H11a1,1,0,0,1-2,0H7a1,1,0,0,1-2,0H3a.915.915,0,0,1-1-1c.506-10.6,19.492-10.591,20-.012A.918.918,0,0,1,21,15Z"></path>
   </symbol>
 </svg>

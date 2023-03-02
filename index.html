@@ -15,25 +15,23 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-          minus.
-        </p>
-      </header>
-    </section>
-    <section class="block block--dark">
-      <div class="container">
-        <header class="block__header">
-          <h2 class="block__heading">Heading</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-            minus.
-          </p>
-        </header>
-      </div>
-    </section>
+    <nav class="nav collapsible collapsible--expanded">
+      <a href="/">
+        <svg class="icon icon--nav">
+          <use xlink:href="images/sprite.svg#cake-birthday"></use>
+        </svg>
+        <svg class="icon icon--nav">
+          <use xlink:href="images/sprite.svg#cupcake"></use>
+        </svg>
+      </a>
+      <svg class="icon icon--nav nav__toggler">
+        <use xlink:href="images/sprite.svg#menu-burger"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Chocolate Cakes</a></li>
+        <li class="nav__item"><a href="#">Ribbon Cakes</a></li>
+      </ul>
+    </nav>
+    <script src="js/main.js"></script>
   </body>
 </html>
