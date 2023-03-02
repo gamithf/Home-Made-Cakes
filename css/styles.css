@@ -26,6 +26,7 @@ h2,
 h3 {
   color: var(--color-headings);
   margin-bottom: 1rem;
+  line-height: 1.1;
 }
 h1 {
   font-size: 6rem;
@@ -121,13 +122,26 @@ a {
   width: 30px;
   height: 30px;
 }
-
+.icon--navi {
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+}
+.icon--hero {
+  fill: #fff;
+  width: 100%;
+  height: 200px;
+}
+.icon--desc {
+  width: 40px;
+  height: 22px;
+}
 /* Buttons */
 .btn {
   border: 0;
   border-radius: 40px;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: bold;
   padding: 1.5rem 2rem;
   cursor: pointer;
   margin: 1rem 0;
@@ -140,20 +154,18 @@ a {
   width: 20px;
   height: 20px;
   fill: #fff;
-  margin-left: 8px;
+  margin-left: 5px;
+  font-weight: bold;
   vertical-align: text-bottom;
 }
 .btn .icon .icon--card {
   width: 20px;
   height: 20px;
   fill: #fff;
-  margin-left: 8px;
+  margin-left: 5px;
   vertical-align: bottom;
 }
-/* .btn::after {
-  content: "-->";
-  margin-left: 0.5rem;
-} */
+
 .btn:hover:after {
   margin-left: 1rem;
 }
@@ -167,6 +179,7 @@ a {
 .btn--section {
   background-color: var(--color-accent);
   color: #fff;
+  margin: 25px 0;
 }
 .btn--section:hover {
   background-color: #ed6635;
@@ -207,10 +220,11 @@ a {
 }
 .card--special .card__header {
   color: var(--color-headings);
-  background: #8be4f4;
+  background: #d2d0db;
 }
 .plan__name {
   margin: 0;
+  margin-bottom: 0.5rem;
 }
 .card--image .card__header {
   display: flex;
@@ -316,11 +330,11 @@ tr th {
   margin-top: 0;
 }
 .block--dark {
-  background-color: #000;
+  background-color: rgb(226, 223, 223);
   color: #7b858b;
 }
 .block--dark .block__heading {
-  color: #fff;
+  color: #000;
 }
 .container {
   max-width: 1140px;
@@ -371,5 +385,35 @@ tr th {
   }
   .nav__item {
     border: 0;
+  }
+}
+
+/* Hero */
+.hero__tagline {
+  font-size: 2rem;
+  color: #222;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  margin: 2rem 0;
+}
+
+.hero__desc {
+  font-size: 2rem;
+  color: #222;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 0;
+  display: block;
+}
+.contact {
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 0;
+  }
+  .hero__content {
+    text-align: center;
+    align-self: center;
   }
 }
