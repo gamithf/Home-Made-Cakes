@@ -53,8 +53,10 @@ a {
   color: var(--color-accent);
   font-weight: 500;
 }
+.link-arrow {
+  font-weight: bold;
+}
 .link-arrow::after {
-  content: "-->";
   margin-left: 5px;
   transition: margin 0.2s;
 }
@@ -184,9 +186,18 @@ a {
 .btn--section:hover {
   background-color: #ed6635;
 }
+.btn--more:hover {
+  background-color: #ed6635;
+}
 .btn--card {
   background-color: #e90ccc;
   color: #fff;
+}
+.btn--more {
+  background-color: var(--color-accent);
+  color: #fff;
+  margin: 0;
+  margin-left: 3rem;
 }
 .btn--card:hover {
   background-color: #f665e2;
@@ -209,6 +220,7 @@ a {
   box-shadow: 0 0 20px 10px #f3f3f3;
   font-weight: 400;
   overflow: hidden;
+  transition: transform 0.2s ease-out;
 }
 .card__header,
 .card__body {
@@ -216,11 +228,14 @@ a {
 }
 .card--primary .card__header {
   color: var(--color-headings);
-  background: lightsteelblue;
+  background: #d2d0db;
 }
 .card--special .card__header {
   color: var(--color-headings);
-  background: #d2d0db;
+  background: lightsteelblue;
+}
+.card--special {
+  transform: scale(1.1);
 }
 .plan__name {
   margin: 0;
@@ -233,6 +248,12 @@ a {
 }
 .card__image {
   width: 200px;
+}
+.card--primary:hover {
+  transform: scale(1.05);
+}
+.card--special:hover {
+  transform: scale(1.15);
 }
 @media screen and (min-width: 768px) {
   .card__image {
@@ -258,7 +279,7 @@ td {
   padding: 0.5rem 1rem;
 }
 tr:nth-child(odd) {
-  background-color: lightgray;
+  background-color: whitesmoke;
 }
 tr th {
   background-color: white;
@@ -416,4 +437,23 @@ tr th {
     text-align: center;
     align-self: center;
   }
+}
+
+/* Plans */
+.block--plans .grid {
+  gap: 4rem 4rem;
+}
+.block--plans .card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .section__heading {
+    text-align: center;
+  }
+}
+.icon--section {
+  height: 20px;
+  width: 20px;
+  margin-left: 0;
 }
