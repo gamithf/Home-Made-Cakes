@@ -10,12 +10,14 @@
 }
 
 /* Typography */
-
+img {
+  object-fit: cover;
+}
 html {
   font-size: 62.5%;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
   color: var(--color-body);
@@ -81,6 +83,7 @@ a {
   padding-left: 0;
   color: var(--color-headings);
 }
+
 .list--inline .list__item {
   display: inline-block;
   margin-right: 2rem;
@@ -94,11 +97,14 @@ a {
 .list--tick .list__item {
   padding-left: 1rem;
   margin-bottom: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: 0;
 }
 
 @media screen and (min-width: 1024px) {
   .list--tick .list__item {
     padding-left: 0.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -129,8 +135,12 @@ a {
   width: 30px;
   height: 30px;
 }
+.hero--image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .icon--hero {
-  fill: #fff;
   width: 100%;
   height: 200px;
 }
@@ -199,6 +209,10 @@ a {
   margin: 0;
   margin-left: 3rem;
 }
+.button {
+  margin-top: 4rem;
+  /* margin-bottom: 1rem; */
+}
 .btn--card:hover {
   background-color: #f665e2;
   color: #fff;
@@ -222,6 +236,7 @@ a {
   overflow: hidden;
   transition: transform 0.2s ease-out;
 }
+
 .card__header,
 .card__body {
   padding: 2rem 3rem;
@@ -236,11 +251,16 @@ a {
 }
 .card--special {
   transform: scale(1.1);
+  margin: auto 0;
+}
+.card--special .card__header {
+  padding-right: 0;
 }
 .plan__name {
   margin: 0;
   margin-bottom: 0.5rem;
 }
+
 .card--image .card__header {
   display: flex;
   justify-content: center;
@@ -248,6 +268,7 @@ a {
 }
 .card__image {
   width: 200px;
+  height: 250px;
 }
 .card--primary:hover {
   transform: scale(1.05);
@@ -258,6 +279,7 @@ a {
 @media screen and (min-width: 768px) {
   .card__image {
     width: 250px;
+    height: 240px;
   }
 }
 /* Tables */
@@ -357,9 +379,17 @@ tr th {
 .block--dark .block__heading {
   color: #000;
 }
+.container1 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 0;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 /* Nav Bar */
@@ -421,7 +451,7 @@ tr th {
 .hero__desc {
   font-size: 2rem;
   color: #222;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-align: left;
   margin: 0;
   display: block;
@@ -447,6 +477,14 @@ tr th {
   max-width: 500px;
   margin: 0 auto;
 }
+.block--plans .card--image {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.section__heading {
+  font-size: 3.5rem;
+  margin-top: 0;
+}
 @media screen and (min-width: 768px) {
   .section__heading {
     text-align: center;
@@ -463,6 +501,7 @@ tr th {
   background-color: #000;
   color: #fff;
   padding: 0;
+  margin-top: 2rem;
 }
 .block-footer {
   background-color: lightgray;
@@ -481,6 +520,7 @@ tr th {
   color: #fff;
   font-weight: 600;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .copyright {
   margin-top: 0;
@@ -501,4 +541,18 @@ tr th {
     grid-template-columns: 1fr 1fr;
     padding: 0;
   }
+}
+.cupcake__desc {
+  font-size: 2.5rem;
+}
+.bg {
+  background-image: url(../images/sun-tornado.svg);
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  background-size: cover;
+  /* background by SVGBackgrounds.com */
+  margin-top: 2rem;
+}
+.home {
+  background-color: #f60944;
 }
